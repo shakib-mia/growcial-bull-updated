@@ -1,0 +1,112 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #container {
+        background-image: url(./../../assets/circle-bg.png);
+        background-repeat: no-repeat;
+        /* background-size: 46%; */
+        /* background-color: transparent; */
+        background-position-y: 11vh;
+        background-position-x: center;
+    }
+
+    #testimonials {
+        background-image: url(./../../assets/testimonial-circle.png);
+        background-repeat: no-repeat;
+        /* background-position: center top; */
+        /* background-size: 32%; */
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #container {
+        background-image: url(./../../assets/circle-bg.png);
+        background-repeat: no-repeat;
+        /* background-size: 46%; */
+        /* background-color: transparent; */
+        background-position-y: -6vh;
+        background-position-x: center;
+    }
+
+    #testimonials {
+        background-image: url(./../../assets/testimonial-circle.png);
+        background-repeat: no-repeat;
+        /* background-position: center top; */
+        /* background-size: 32%; */
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #container {
+        background-image: url(./../../assets/testi-glow.png);
+        background-repeat: no-repeat;
+        /* background-size: 46%; */
+        /* background-color: transparent; */
+        background-position-y: -6vh;
+        background-position-x: center;
+    }
+
+    #testimonials {
+        background-image: url(./../../assets/testimonial-circle.png);
+        background-repeat: no-repeat;
+        /* background-position: center top; */
+        /* background-size: 32%; */
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #container {
+        background-image: url(./../../assets/circle-bg.png);
+        background-repeat: no-repeat;
+        /* background-size: 46%; */
+        /* background-color: transparent; */
+        background-position-y: -6vh;
+        background-position-x: center;
+    }
+
+    #testimonials {
+        background-image: url(./../../assets/testimonial-circle.png);
+        background-repeat: no-repeat;
+        /* background-position: center top; */
+        /* background-size: 32%; */
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #container {
+        background-image: url(./../../assets/testi-glow.png);
+        background-repeat: no-repeat;
+        /* background-size: 46%; */
+        /* background-color: transparent; */
+        background-position-y: 18vh;
+        background-position-x: center;
+    }
+
+    #testimonials {
+        background-image: url(./../../assets/testimonial-circle.png);
+        background-repeat: no-repeat;
+        /* background-position: center top; */
+        /* background-size: 32%; */
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #container {
+        background-image: url(./../../assets/testi-glow.png);
+        background-repeat: no-repeat;
+        /* background-size: 46%; */
+        /* background-color: transparent; */
+        background-position-y: 0;
+        background-position-x: center;
+    }
+
+    #testimonials {
+        background-image: url(./../../assets/testimonial-circle.png);
+        background-repeat: no-repeat;
+        /* background-position: center top; */
+        /* background-size: 32%; */
+    }
+}

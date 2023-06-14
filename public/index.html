@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Growcial Bull - Learn Gain & Grow Welcome to Growcial Bull - The brand that's passionate about teaching people
+    how?</title>
+  <meta name="description"
+    content="Welcome to Growcial Bull - The brand that's passionate about teaching people. Growcialbull have developed our own proven methods to help our clients succeed in the stock market. Our mission is to provide comprehensive education and practical training to help individuals become profitable traders. We offer a range of courses, mentorship programs, and resources to equip our clients with the knowledge and skills needed to succeed in the financial markets. Whether you're a beginner or an experienced trader, our programs are tailored to meet your needs and help you achieve your goals." />
+  <meta name="robots" content="noodp,noydir" />
+  <meta property="og:image" content="./logo.png" />
+  <link rel="canonical" href="https://growcialbull.com/" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>Growcial Bull - Learn Gain & Grow</title>
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Product",
+      "name" : "Market Researcher",
+      "image" : "https://www.growcialbull.com/logo.png",
+      "description" : "Welcome to Growcial Bull - The brand that's passionate about teaching people",
+      "url" : "https://growcialbull.com/",
+      "brand" : {
+        "@type" : "Brand",
+        "name" : "Growcial Bull",
+        "logo" : "https://www.growcialbull.com/logo.png"
+      },
+      "aggregateRating" : {
+        "@type" : "AggregateRating",
+        "ratingValue" : "5",
+        "bestRating" : "5",
+        "worstRating" : "4.7",
+        "ratingCount" : "17"
+      }
+    }
+ </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "WebSite",
+    "name": "Growcial Bull",
+    "url": "https://growcialbull.com/",
+   }
+  </script>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script>
+    if (typeof (stockdio_events) == "undefined") {
+      stockdio_events = true;
+      var stockdio_eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+      var stockdio_eventer = window[stockdio_eventMethod];
+      var stockdio_messageEvent = stockdio_eventMethod == "attachEvent" ? "onmessage" : "message";
+      stockdio_eventer(stockdio_messageEvent, function (e) {
+        if (typeof (e.data) != "undefined" && typeof (e.data.method) != "undefined") {
+          eval(e.data.method);
+        }
+      }, false);
+    }
+
+    $("#testimonials .owl-nav .owl-next").click(function (e) {
+
+      var carousel = caseStudeisContent.data('owl.carousel');
+      animateIn = "slideInLeft";
+      animateOut = "slideOutRight";
+
+      carousel.settings.animateOut = animateOut;
+      carousel.settings.animateOut = animateOut;
+      carousel.options.animateIn = animateIn;
+      carousel.options.animateIn = animateIn;
+
+      caseStudeisContent.trigger('refresh.owl.carousel');
+      console.log("next");
+      caseStudeisContent.trigger("next.owl.carousel");
+    });
+
+    $("#testimonials .owl-nav .owl-prev").click(function (e) {
+
+      var carousel = caseStudeisContent.data('owl.carousel');
+      animateIn = "slideLeft";
+      animateOut = "slideInRight";
+
+      carousel.settings.animateOut = animateOut;
+      carousel.settings.animateOut = animateOut;
+      carousel.options.animateIn = animateIn;
+      carousel.options.animateIn = animateIn;
+
+      caseStudeisContent.trigger('refresh.owl.carousel');
+      console.log("prev");
+      caseStudeisContent.trigger("prev.owl.carousel");
+    })
+  </script>
+</body>
+
+</html>
