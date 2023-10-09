@@ -1,31 +1,31 @@
-import bestExchange from "./assets/blogs/power-of-technical-analysis.png"
-import bitcoin from "./assets/blogs/loosing-money.png"
-import loseReduce from "./assets/blogs/swing-trading-vs-day-trading.png"
-import tradingStrategy from "./assets/blogs/trading-strategies.png"
-import tradingplan from './assets/blogs/trading-plan.png'
-import blog6 from './assets/blogs/blog6.png'
-import blog7 from './assets/blogs/blog7.png'
-import blog8 from './assets/blogs/blog8.png'
-import blog9 from './assets/blogs/blog9.png'
-import blog10 from './assets/blogs/blog10.png'
-import blog11 from './assets/blogs/blog11.png'
-import blog12 from './assets/blogs/blog12.png'
-import blog13 from './assets/blogs/blog13.png'
-import blog14 from './assets/blogs/blog14.png'
-import blog15 from './assets/blogs/blog15.png'
-import blog16 from './assets/blogs/blog16.png'
-import blog17 from './assets/blogs/blog17.png'
-import blog18 from './assets/blogs/blog18.png'
-import blog19 from './assets/blogs/blog19.png'
-import blog20 from './assets/blogs/blog20.png'
-
+import bestExchange from "./assets/blogs/power-of-technical-analysis.png";
+import bitcoin from "./assets/blogs/loosing-money.png";
+import loseReduce from "./assets/blogs/swing-trading-vs-day-trading.png";
+import tradingStrategy from "./assets/blogs/trading-strategies.png";
+import tradingplan from "./assets/blogs/trading-plan.png";
+import blog6 from "./assets/blogs/blog6.png";
+import blog7 from "./assets/blogs/blog7.png";
+import blog8 from "./assets/blogs/blog8.png";
+import blog9 from "./assets/blogs/blog9.png";
+import blog10 from "./assets/blogs/blog10.png";
+import blog11 from "./assets/blogs/blog11.png";
+import blog12 from "./assets/blogs/blog12.png";
+import blog13 from "./assets/blogs/blog13.png";
+import blog14 from "./assets/blogs/blog14.png";
+import blog15 from "./assets/blogs/blog15.png";
+import blog16 from "./assets/blogs/blog16.png";
+import blog17 from "./assets/blogs/blog17.png";
+import blog18 from "./assets/blogs/blog18.png";
+import blog19 from "./assets/blogs/blog19.png";
+import blog20 from "./assets/blogs/blog20.png";
 
 export const contents = [
-    {
-        _id: 1,
-        image: bitcoin,
-        heading: "Are you tired of losing money in the market? Here's how to avoid common trading mistakes and turn the tide in your favour.",
-        text: `Are you tired of losing money in the market? Do you feel like you're constantly taking one step forward and two steps back? If so, you're not alone. Trading is a high-risk game, and even the most experienced traders make mistakes. But the good news is that many of these mistakes are avoidable, and with the right knowledge and strategy, you can turn the tide in your favour. 
+  {
+    _id: 1,
+    image: bitcoin,
+    heading:
+      "Are you tired of losing money in the market? Here's how to avoid common trading mistakes and turn the tide in your favour.",
+    text: `Are you tired of losing money in the market? Do you feel like you're constantly taking one step forward and two steps back? If so, you're not alone. Trading is a high-risk game, and even the most experienced traders make mistakes. But the good news is that many of these mistakes are avoidable, and with the right knowledge and strategy, you can turn the tide in your favour. 
         <br><br>
         In this blog, we'll go over some common trading mistakes and give you tips on how to avoid them. By following these guidelines, you'll be able to minimise your losses and increase your chances of success.
         <br><br>
@@ -54,13 +54,14 @@ export const contents = [
         <br> 
         Trading can be a lucrative and exciting activity, but it's also risky. By avoiding these common trading mistakes and following a solid plan, you can minimise your losses and increase your chances of success. Remember, trading is a marathon, not a sprint. Stay disciplined, stay patient, and you'll be on your way to trading success.
         `,
-        link: "/blog/are-you-tired-of-losing-money-in-the-market-heres-how-to-avoid-common-trading-mistakes-and-turn-the-tide-in-your-favour"
-    },
-    {
-        _id: 2,
-        image: bestExchange,
-        heading: "Unlock the power of technical analysis and gain a deeper understanding of market trends and patterns",
-        text: `The stock market can be a tricky place, and understanding its trends and patterns can be a daunting task. However, with the right tools, you can gain a deeper understanding of market movements and make more informed trading decisions. One of those tools is technical analysis.
+    link: "/blog/are-you-tired-of-losing-money-in-the-market-heres-how-to-avoid-common-trading-mistakes-and-turn-the-tide-in-your-favour",
+  },
+  {
+    _id: 2,
+    image: bestExchange,
+    heading:
+      "Unlock the power of technical analysis and gain a deeper understanding of market trends and patterns",
+    text: `The stock market can be a tricky place, and understanding its trends and patterns can be a daunting task. However, with the right tools, you can gain a deeper understanding of market movements and make more informed trading decisions. One of those tools is technical analysis.
         <br><br>
         Technical analysis is the study of historical price and volume data to identify patterns and trends in the market. It's a valuable tool for traders and investors who want to make informed decisions based on market data. 
         In this blog, we'll explore the basics of technical analysis and how you can use it to unlock the power of the market. 
@@ -95,13 +96,14 @@ export const contents = [
         Conclusion
         Technical analysis is a valuable tool for traders and investors who want to gain a deeper understanding of the market. By studying historical price and volume data, we can identify patterns and trends that can help us make more informed trading decisions. While it's not a foolproof method, it can be a powerful tool in the hands of an experienced trader. If you're interested in learning more about technical analysis, there are many resources available online that can help you get started.
         `,
-        link: "/blog/power-of-technical-analysis"
-    },
-    {
-        _id: 3,
-        image: loseReduce,
-        heading: "Not sure whether to swing trade or day trade? Weigh the pros and cons of each style and find the one that suits your goals.",
-        text: `Trading in the stock market can be a lucrative way to make money, but it's important to choose a trading style that suits your goals and personality. Two popular trading styles are swing trading and day trading. In this blog, we'll explore the pros and cons of each style to help you determine which one is right for you. 
+    link: "/blog/power-of-technical-analysis",
+  },
+  {
+    _id: 3,
+    image: loseReduce,
+    heading:
+      "Not sure whether to swing trade or day trade? Weigh the pros and cons of each style and find the one that suits your goals.",
+    text: `Trading in the stock market can be a lucrative way to make money, but it's important to choose a trading style that suits your goals and personality. Two popular trading styles are swing trading and day trading. In this blog, we'll explore the pros and cons of each style to help you determine which one is right for you. 
 
         What is Swing Trading? 
         
@@ -138,29 +140,29 @@ export const contents = [
         Conclusion 
         Swing trading and day trading are two popular trading styles that each have their own pros and cons. It's important to weigh these pros and cons and choose a trading style that suits your goals and personality. Remember, no trading style is foolproof, and it's important to have a solid understanding of the market and risk management tools regardless of which style you choose.
         `,
-        link: "/blog/swing-trading-vs-day-trading"
-    },
-    {
-        _id: 4,
-        image: tradingStrategy,
-        heading: "Top 10 Trading Strategies Used by Successful Traders",
-        text: "Trading is an art that requires practice, patience, and a well-thought-out strategy. Successful traders have honed their skills over years of experience and have developed strategies that work best for them.",
-        link: "/blog/top-strategies"
-    },
+    link: "/blog/swing-trading-vs-day-trading",
+  },
+  {
+    _id: 4,
+    image: tradingStrategy,
+    heading: "Top 10 Trading Strategies Used by Successful Traders",
+    text: "Trading is an art that requires practice, patience, and a well-thought-out strategy. Successful traders have honed their skills over years of experience and have developed strategies that work best for them.",
+    link: "/blog/top-strategies",
+  },
 
-    {
-        _id: 5,
-        image: tradingplan,
-        heading: "How to Develop a Trading Plan That Works for You",
-        text: "Trading can be a profitable and exciting venture, but it also comes with risks. Developing a trading plan is essential for success in the market. It helps traders set goals, identify their risk tolerance, and establish a framework for making trading decisions.",
-        link: "/blog/trading-plan"
-    },
+  {
+    _id: 5,
+    image: tradingplan,
+    heading: "How to Develop a Trading Plan That Works for You",
+    text: "Trading can be a profitable and exciting venture, but it also comes with risks. Developing a trading plan is essential for success in the market. It helps traders set goals, identify their risk tolerance, and establish a framework for making trading decisions.",
+    link: "/blog/trading-plan",
+  },
 
-    {
-        _id: 6,
-        image: blog6,
-        heading: "The Top 5 Mistakes to Avoid When Trading",
-        text: `Trading can be a lucrative way to make money, but it can also be risky if you don't know what you're doing. Even experienced traders can make mistakes that lead to significant losses.
+  {
+    _id: 6,
+    image: blog6,
+    heading: "The Top 5 Mistakes to Avoid When Trading",
+    text: `Trading can be a lucrative way to make money, but it can also be risky if you don't know what you're doing. Even experienced traders can make mistakes that lead to significant losses.
 
         In this blog, we'll look at the top five mistakes to avoid when trading and how to stay on the path to success. 
         
@@ -176,14 +178,14 @@ export const contents = [
         
         In conclusion, trading can be a profitable way to make money, but it's essential to avoid these common mistakes. By developing a trading plan, managing risk, avoiding overtrading, making informed decisions, and learning from mistakes, you can increase your chances of success in the market.
         `,
-        link: "/blog/trading-mistake"
-    },
+    link: "/blog/trading-mistake",
+  },
 
-    {
-        _id: 7,
-        image: blog7,
-        heading: " How to Build a Trading Mindset for Success",
-        text: `Trading is more than just analysing charts and making trades. It requires a unique mindset that can help you navigate the ups and downs of the market. 
+  {
+    _id: 7,
+    image: blog7,
+    heading: " How to Build a Trading Mindset for Success",
+    text: `Trading is more than just analysing charts and making trades. It requires a unique mindset that can help you navigate the ups and downs of the market. 
 
         In this blog, we'll explore how to build a trading mindset for success and achieve your goals. 
         
@@ -201,15 +203,14 @@ export const contents = [
         
         In conclusion, building a trading mindset takes time and effort, but it's essential for success. By defining your trading goals, managing your emotions, cultivating a growth mindset, developing a trading plan, staying disciplined, and seeking support and education, you can achieve your trading goals and navigate the challenges of the market.
         `,
-        link: "/blog/trading-mindset"
+    link: "/blog/trading-mindset",
+  },
 
-    },
-
-    {
-        _id: 8,
-        image: blog8,
-        heading: "The Importance of Fundamental Analysis in Trading",
-        text: `Fundamental analysis is an essential tool for traders to understand the market's behaviour and make informed trading decisions. In this blog, we'll explore the importance of fundamental analysis in trading and how it can help you achieve your trading goals.
+  {
+    _id: 8,
+    image: blog8,
+    heading: "The Importance of Fundamental Analysis in Trading",
+    text: `Fundamental analysis is an essential tool for traders to understand the market's behaviour and make informed trading decisions. In this blog, we'll explore the importance of fundamental analysis in trading and how it can help you achieve your trading goals.
 
         What is Fundamental Analysis?
         
@@ -231,14 +232,14 @@ export const contents = [
         
         In conclusion, fundamental analysis is an essential tool for traders to make informed trading decisions. By analysing a security's financial statements, economic indicators, industry trends, and other factors, traders can identify potential trading opportunities, manage risk, and make informed trading decisions. 
         `,
-        link: "/blog/fundamental-analysis"
-    },
+    link: "/blog/fundamental-analysis",
+  },
 
-    {
-        _id: 9,
-        image: blog9,
-        heading: "Trading on News: How to Make Informed Decisions",
-        text: `Trading on news can be an effective way to make profits in the financial markets. News can move the markets significantly, creating trading opportunities for those who can quickly analyse and respond to it. In this blog, we'll explore how to make informed trading decisions based on news and avoid common mistakes that can lead to losses.
+  {
+    _id: 9,
+    image: blog9,
+    heading: "Trading on News: How to Make Informed Decisions",
+    text: `Trading on news can be an effective way to make profits in the financial markets. News can move the markets significantly, creating trading opportunities for those who can quickly analyse and respond to it. In this blog, we'll explore how to make informed trading decisions based on news and avoid common mistakes that can lead to losses.
 
         What is News Trading?
         
@@ -268,14 +269,14 @@ export const contents = [
         
         In conclusion, trading on news can be an effective way to make profits in the financial markets. To make informed trading decisions based on news, traders need to stay informed, analyse the news, understand the market, have a plan, and use technical analysis. Avoid common mistakes such as trading without a plan, overreacting to news, ignoring risk management, and focusing on one news event. By following these guidelines, traders can successfully trade on news and achieve their trading goals.
         `,
-        link: "/blog/news-trading"
-    },
+    link: "/blog/news-trading",
+  },
 
-    {
-        _id: 10,
-        image: blog10,
-        heading: "Options Trading for Beginners: Strategies and Tips ",
-        text: `Options trading can be a lucrative way to invest in the stock market, but it can also be confusing and overwhelming for beginners. Options are financial derivatives that give the holder the right, but not the obligation, to buy or sell an underlying asset at a predetermined price and time.
+  {
+    _id: 10,
+    image: blog10,
+    heading: "Options Trading for Beginners: Strategies and Tips ",
+    text: `Options trading can be a lucrative way to invest in the stock market, but it can also be confusing and overwhelming for beginners. Options are financial derivatives that give the holder the right, but not the obligation, to buy or sell an underlying asset at a predetermined price and time.
 
         Here are some options trading strategies and tips for beginners:
         
@@ -295,13 +296,13 @@ export const contents = [
         
         Options trading can be a complex and risky venture, but with a solid understanding of the basics and a strategic approach, beginners can succeed in the market. Remember to start small and gradually build up your options trading knowledge and experience.
         `,
-        link: "/blog/options-trading"
-    },
-    {
-        _id: 11,
-        image: blog11,
-        heading: "How to Trade in Volatile Markets: Tips and Strategies ",
-        text: `Volatile markets can be challenging for traders, as they can be unpredictable and quickly change direction. However, volatile markets can also present great opportunities for profit if traders can navigate them correctly. Here are some tips and strategies for trading in volatile markets:
+    link: "/blog/options-trading",
+  },
+  {
+    _id: 11,
+    image: blog11,
+    heading: "How to Trade in Volatile Markets: Tips and Strategies ",
+    text: `Volatile markets can be challenging for traders, as they can be unpredictable and quickly change direction. However, volatile markets can also present great opportunities for profit if traders can navigate them correctly. Here are some tips and strategies for trading in volatile markets:
 
         Have a plan: Before trading in a volatile market, it is important to have a clear trading plan in place. This plan should include entry and exit points, stop-loss levels, and a risk management strategy.
         
@@ -319,13 +320,14 @@ export const contents = [
         
         Trading in volatile markets can be challenging, but with the right approach and strategy, traders can capitalise on potential profit opportunities. Remember to stay disciplined, manage your risk, and stay up to date with market news and events to make informed trading decisions.
         `,
-        link: "/blog/trade-in-volatile-markets"
-    },
-    {
-        _id: 12,
-        image: blog12,
-        heading: " The Benefits of Social Trading: How to Learn from Other Traders and Improve Your Results.",
-        text: ` Social trading, also known as copy trading, has become increasingly popular in the world of finance. This trading method allows you to follow the trades of successful traders and copy their trades automatically, without the need for constant monitoring of the markets. In this blog, we'll explore the benefits of social trading and how you can learn from other traders to improve your results.
+    link: "/blog/trade-in-volatile-markets",
+  },
+  {
+    _id: 12,
+    image: blog12,
+    heading:
+      " The Benefits of Social Trading: How to Learn from Other Traders and Improve Your Results.",
+    text: ` Social trading, also known as copy trading, has become increasingly popular in the world of finance. This trading method allows you to follow the trades of successful traders and copy their trades automatically, without the need for constant monitoring of the markets. In this blog, we'll explore the benefits of social trading and how you can learn from other traders to improve your results.
 
         One of the main advantages of social trading is that it allows beginners to learn from experienced traders. By following the trades of successful traders, you can gain insight into their strategies, risk management techniques, and market analysis. This can be particularly useful if you're new to trading and want to learn from more experienced traders before diving into the markets on your own.
         
@@ -343,13 +345,14 @@ export const contents = [
         
         
         `,
-        link: "/blog/social-trading"
-    },
-    {
-        _id: 13,
-        image: blog13,
-        heading: "The Psychology of Trading: How to Master Your Emotions and Improve Your Performance",
-        text: `The Psychology of Trading: How to Master Your Emotions and Improve Your Performance
+    link: "/blog/social-trading",
+  },
+  {
+    _id: 13,
+    image: blog13,
+    heading:
+      "The Psychology of Trading: How to Master Your Emotions and Improve Your Performance",
+    text: `The Psychology of Trading: How to Master Your Emotions and Improve Your Performance
 
         When it comes to trading, most people focus on developing strategies and analyzing market trends. However, one crucial aspect of successful trading that often goes overlooked is the psychology behind it. Your mindset and emotions can have a significant impact on your trading performance. In this blog, we'll explore some of the key psychological factors that can affect your trading and provide tips on how to master your emotions to become a more successful trader.
         
@@ -370,13 +373,13 @@ export const contents = [
         
         In conclusion, mastering your emotions is essential for successful trading. By understanding your emotions, developing a trading plan, keeping a trading journal, practising mindfulness, and seeking support, you can improve your performance and become a more successful trader. Remember, trading is as much about mindset as it is about strategy, and mastering your emotions is a key component of a winning mindset.
         `,
-        link: "/blog/psychology-of-trading"
-    },
-    {
-        _id: 14,
-        image: blog14,
-        heading: "Cryptocurrency Trading: What You Need to Know Before Investing ",
-        text: `Trading is an exciting and potentially profitable activity, but it also involves risk. No matter how experienced you are, there's always a chance of losing money in the market. That's why it's essential to manage your trading risks carefully. In this blog, we'll discuss some tips and strategies that can help you do just that.
+    link: "/blog/psychology-of-trading",
+  },
+  {
+    _id: 14,
+    image: blog14,
+    heading: "Cryptocurrency Trading: What You Need to Know Before Investing ",
+    text: `Trading is an exciting and potentially profitable activity, but it also involves risk. No matter how experienced you are, there's always a chance of losing money in the market. That's why it's essential to manage your trading risks carefully. In this blog, we'll discuss some tips and strategies that can help you do just that.
 
         Use Stop Loss Orders
         A stop-loss order is an order placed with a broker to sell a security when it reaches a certain price. It's a simple and effective way to limit your potential losses in case the market moves against you. By setting a stop loss order, you can exit a trade automatically if the price reaches a predetermined level. This can help you avoid emotional decision-making and limit your losses.
@@ -395,13 +398,13 @@ export const contents = [
         
         In conclusion, managing your trading risks is crucial to your success as a trader. Use stop-loss orders, diversify your portfolio, manage your position sizes, keep a trading journal, and stay informed. By following these tips and strategies, you can reduce your risks and increase your chances of success in the market.
         `,
-        link: "/blog/cryptocurrency-trading"
-    },
-    {
-        _id: 15,
-        image: blog15,
-        heading: "Swing Trading vs. Position Trading: Which Is Right for You?",
-        text: `Trading can often feel like a lonely and isolating experience. Hours spent analysing charts, monitoring news, and making trades can make it easy to feel disconnected from the outside world. This is where trading communities come in. Trading communities are groups of traders who come together to share ideas, insights, and experiences. They can be online or in-person, and they offer a range of benefits to traders.
+    link: "/blog/cryptocurrency-trading",
+  },
+  {
+    _id: 15,
+    image: blog15,
+    heading: "Swing Trading vs. Position Trading: Which Is Right for You?",
+    text: `Trading can often feel like a lonely and isolating experience. Hours spent analysing charts, monitoring news, and making trades can make it easy to feel disconnected from the outside world. This is where trading communities come in. Trading communities are groups of traders who come together to share ideas, insights, and experiences. They can be online or in-person, and they offer a range of benefits to traders.
 
         One of the biggest benefits of trading with a community is access to a wealth of knowledge and expertise. Within a trading community, there are traders with different backgrounds, experiences, and skill levels. This creates an environment where traders can learn from each other and share ideas. New traders can learn from more experienced traders, while experienced traders can benefit from the fresh perspectives of newer traders. This collective knowledge can help traders to develop new strategies, refine their trading plans, and make better-informed trades.
         
@@ -414,13 +417,13 @@ export const contents = [
         Overall, trading with a community can provide a range of benefits to traders. Whether you are a new trader looking to learn from others, or an experienced trader looking for emotional support and accountability, there is a trading community out there for you. So if you are feeling isolated in your trading journey, consider joining a community and experience the benefits for yourself.
         
         `,
-        link: "/blog/swing-Trading-vs-position-trading"
-    },
-    {
-        _id: 16,
-        image: blog16,
-        heading: "Maximising Profits: Tips for Scaling Your Trading Account",
-        text: ` If you're like most traders, the ultimate goal is to turn a profit. But how do you maximise your profits and scale your trading account? Here are some tips to help you do just that:
+    link: "/blog/swing-Trading-vs-position-trading",
+  },
+  {
+    _id: 16,
+    image: blog16,
+    heading: "Maximising Profits: Tips for Scaling Your Trading Account",
+    text: ` If you're like most traders, the ultimate goal is to turn a profit. But how do you maximise your profits and scale your trading account? Here are some tips to help you do just that:
 
         Have a Clear Trading Plan: Before you start trading, you need to have a clear plan in place. This means defining your trading strategy, risk tolerance, and profit goals. Your plan should also include a well-defined entry and exit strategy for each trade.
         
@@ -437,13 +440,13 @@ export const contents = [
         By following these tips, you can maximise your profits and scale your trading account over time. Remember to stay disciplined and patient, and never let your emotions get in the way of sound trading decisions.
         
         `,
-        link: "/blog/maaximising-profits"
-    },
-    {
-        _id: 17,
-        image: blog17,
-        heading: "The Psychology of Trading: How Emotions Impact Your Decisions",
-        text: `When it comes to trading, there are a number of factors that can impact the success of your trades. One of the most important factors is your own psychology. Your emotions can play a significant role in your decision-making process, which can ultimately determine whether you make a profit or lose money.
+    link: "/blog/maaximising-profits",
+  },
+  {
+    _id: 17,
+    image: blog17,
+    heading: "The Psychology of Trading: How Emotions Impact Your Decisions",
+    text: `When it comes to trading, there are a number of factors that can impact the success of your trades. One of the most important factors is your own psychology. Your emotions can play a significant role in your decision-making process, which can ultimately determine whether you make a profit or lose money.
 
         One of the biggest challenges that traders face is managing their emotions. Fear, greed, and anxiety are just a few of the emotions that can influence your trading decisions. These emotions can lead you to make irrational decisions, such as holding onto a losing position for too long, or taking unnecessary risks in the hopes of making a quick profit.
         
@@ -457,13 +460,14 @@ export const contents = [
         
         In conclusion, the psychology of trading is a critical factor in your success as a trader. By recognizing how your emotions can impact your trading decisions, developing a trading plan, practising mindfulness, and having a strong understanding of market fundamentals and technical analysis, you can improve your chances of making profitable trades. Remember, trading is a marathon, not a sprint, so take the time to develop your skills and strategies, and always be willing to learn and adapt.
         `,
-        link: "/blog/psychology-of-trading-emotions"
-    },
-    {
-        _id: 18,
-        image: blog18,
-        heading: " Mastering Technical Indicators: A Guide to Using Indicators in Trading",
-        text: `Technical indicators are one of the most popular tools used by traders to analyse price movements and predict future trends in the financial markets. They are mathematical calculations that are based on historical price and volume data and are used to provide insights into market trends, momentum, and potential entry and exit points for trades.
+    link: "/blog/psychology-of-trading-emotions",
+  },
+  {
+    _id: 18,
+    image: blog18,
+    heading:
+      " Mastering Technical Indicators: A Guide to Using Indicators in Trading",
+    text: `Technical indicators are one of the most popular tools used by traders to analyse price movements and predict future trends in the financial markets. They are mathematical calculations that are based on historical price and volume data and are used to provide insights into market trends, momentum, and potential entry and exit points for trades.
 
         In this guide, we will take a closer look at the most commonly used technical indicators and how they can be used in trading to make more informed decisions.
         
@@ -490,13 +494,14 @@ export const contents = [
         
         In conclusion, technical indicators can be a powerful tool for traders to gain insights into market trends, momentum, and potential entry and exit points for trades. However, it is important to remember that no single indicator can provide all the answers, and traders should always use multiple indicators and other forms of analysis to make more informed decisions.
         `,
-        link: "/blog/mastering-technical-indicators"
-    },
-    {
-        _id: 19,
-        image: blog19,
-        heading: "The Psychology of Trading: Understanding the Emotions That Drive Your Decisions ",
-        text: ` Trading can be an emotional roller coaster. One moment, you may feel like a genius, riding high on a winning trade. The next moment, you may feel like a failure, second-guessing every decision you make. Understanding the psychology of trading is crucial to success, as it can help you recognize and manage the emotions that drive your decisions.
+    link: "/blog/mastering-technical-indicators",
+  },
+  {
+    _id: 19,
+    image: blog19,
+    heading:
+      "The Psychology of Trading: Understanding the Emotions That Drive Your Decisions ",
+    text: ` Trading can be an emotional roller coaster. One moment, you may feel like a genius, riding high on a winning trade. The next moment, you may feel like a failure, second-guessing every decision you make. Understanding the psychology of trading is crucial to success, as it can help you recognize and manage the emotions that drive your decisions.
 
         Here are some of the most common emotions that traders experience and how to deal with them:
         
@@ -510,13 +515,13 @@ export const contents = [
         
         By understanding the psychology of trading and managing your emotions, you can make more informed decisions and increase your chances of success. Remember, trading is not just about numbers and charts, it's also about your mindset and emotions.
         `,
-        link: "/blog/decision-making"
-    },
-    {
-        _id: 20,
-        image: blog20,
-        heading: "The Role of Emotional Intelligence in Trading",
-        text: ` Trading is a mentally and emotionally challenging endeavour, and many traders overlook the importance of emotional intelligence in their pursuit of profits. Emotional intelligence is the ability to identify, understand, and manage your own emotions and those of others. In trading, emotional intelligence can be the difference between success and failure.
+    link: "/blog/decision-making",
+  },
+  {
+    _id: 20,
+    image: blog20,
+    heading: "The Role of Emotional Intelligence in Trading",
+    text: ` Trading is a mentally and emotionally challenging endeavour, and many traders overlook the importance of emotional intelligence in their pursuit of profits. Emotional intelligence is the ability to identify, understand, and manage your own emotions and those of others. In trading, emotional intelligence can be the difference between success and failure.
 
         Here are some ways emotional intelligence plays a role in trading:
         
@@ -540,7 +545,28 @@ export const contents = [
         
         In conclusion, emotional intelligence is a critical component of successful trading. By developing greater self-awareness, self-regulation, empathy, and social skills, traders can make more rational and profitable trading decisions. So, if you want to improve your trading results, start by developing your emotional intelligence.
         `,
-        link: "/blog/emotional-intelligence-in-trading"
-    },
+    link: "/blog/emotional-intelligence-in-trading",
+  },
+];
 
-]
+// "MASTERY IN F&O EQUITY",
+// "LIVE 1 TO 1 MENTORSHIP",
+// "21 SESSIONS",
+// "TIME AND DATE CYCLE",
+// "SMART MONEY CONCEPTS",
+// "GOLDEN RULES OF PRICE ACTION",
+// "ADVANCED OPTION STRATEGY",
+// "WD GANN SECRET METHODS",
+// "BIG FOOT PLAYER ENTRIES",
+// "DYNAMIC & STATIC CALCULATOR",
+// "LUNAR/ASTRO CYCLES",
+// "ELLIOT WAVE STRUCTURES",
+// "WORLD MARKET SENSE",
+// "STOCK PICKING TECHNIQUE",
+// "BTST/SWING/POSITONAL METHOD",
+// "EXPERTISE IN FUNDAMENTAL ANALYST",
+// "WD GANN 7/99/144 METHOD",
+// "POSITION SIZING",
+// "HOW TO ENTRY,EXIT & TARGETS",
+// "TRADING PSYCHOLOGY BUILDUP",
+// "LIVE & RECORDED INTRACTIVE CLASSES",

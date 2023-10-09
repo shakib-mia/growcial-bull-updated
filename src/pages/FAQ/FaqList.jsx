@@ -13,7 +13,6 @@ const Faqlist = ({ open, toggle, title, details }) => {
                     <p className='text-[16px] lg:text-[22px] font-semibold flex justify-between'>{title}</p>
                     <div className='text-[30px] '>
                         {open ? <AiFillMinusCircle /> : <AiFillPlusCircle />}
-
                     </div>
                 </div>
 

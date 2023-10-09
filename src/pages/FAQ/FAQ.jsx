@@ -1,32 +1,3 @@
-// import React from 'react';
-
-// const FAQ = () => {
-//     return (
-//         <div className='w-11/12 text-justify lg:w-1/2 mx-auto'>
-//             <h1 className='text-3xl font-medium mt-4'>What does Growcialbull offer?</h1>
-//             <p className='text-xl'>Growcialbull offers online courses exclusively on trading in the stock market, providing our students with in-depth knowledge and expertise in this field. We take pride in teaching our own proprietary trading strategies and techniques to help our students achieve their financial goals.</p>
-
-//             <h1 className='text-3xl font-medium mt-4'>Who can benefit from Growcialbull's courses?</h1>
-//             <p className='text-xl'>Anyone who is interested in learning about trading in the financial markets can benefit from our courses, whether they are beginners or experienced traders looking to improve their skills and strategies.</p>
-
-//             <h1 className='text-3xl font-medium mt-4'>How can I access Growcialbull's courses?</h1>
-//             <p className='text-xl'>Our courses are available online and can be accessed through our website. Once you purchase a course, you will have lifetime access to its materials.</p>
-
-//             <h1 className='text-3xl font-medium mt-4'>What sets Growcialbull apart from other trading education providers?</h1>
-//             <p className='text-xl'>Our trading strategies are unique and have been developed by experienced traders. We also provide ongoing support to our students through our online community and social media channels.</p>
-
-//             <h1 className='text-3xl font-medium mt-4'>What is the cost of Growcialbull's courses?</h1>
-//             <p className='text-xl'>The cost of our courses varies depending on the market and level of expertise you are interested in. We also offer discounts and promotions from time to time, so be sure to check our website and social media channels for updates.</p>
-
-//             <h1 className='text-3xl font-medium mt-4'>How can I get in touch with the Growcialbull team?</h1>
-//             <p className='text-xl'>You can contact us through our website or through our social media channels on Instagram, Facebook, and Telegram. We also have a community forum where you can connect with other traders and get support.</p>
-
-//         </div>
-//     );
-// };
-
-// export default FAQ;
-
 import React from 'react';
 import { useState } from 'react';
 import Faqlist from './FaqList';
@@ -85,8 +56,8 @@ export default function FAQ() {
 
     return (
         <>
-            <section className='grid place-items-center pb-10'>
-                <div className='px-[20px] max-w-[1000px] '>
+            <section className='h-screen pt-44'>
+                <div className='px-[20px] w-11/12 xl:max-w-[1000px] mx-auto'>
 
                     {accordionData.map((data, index) => {
                         return (
