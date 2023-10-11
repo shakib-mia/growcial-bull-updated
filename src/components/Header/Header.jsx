@@ -2,7 +2,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import React, { useEffect, useRef, useState } from "react";
 // import Cause from '../Cause/Cause';
-import Charts from "../Charts/Charts";
+// import Charts from "../Charts/Charts";
 import bars from "./../../assets/icons/bars.png";
 import books from "./../../assets/icons/book.png";
 // import calendar from "./../../assets/icons/calender.png"
@@ -232,7 +232,7 @@ const Header = () => {
   const reasonRef = useRef(null);
   const buttonRef = useRef(null);
 
-  const [autoplay, setAutoplay] = useState(false);
+  // const [autoplay, setAutoplay] = useState(false);
 
   gsap.registerPlugin(ScrollTrigger);
 
@@ -440,7 +440,7 @@ const Header = () => {
           </div>
         </div>
 
-        <Videointro />
+        {/* <Videointro /> */}
 
         {/* {headerDetailsView && <HeaderDetails item={causes[headerDetails]} setHeaderDetailsView={setHeaderDetailsView} />} */}
       </header>
