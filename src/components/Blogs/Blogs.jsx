@@ -12,7 +12,7 @@ const Blogs = () => {
     // alert(contents.length)
 
     return (
-        <div className={`py-[74px] pb-[90px] lg:pt-[110px] lg:pb-[222px] px-[31px] lg:px-[116px] overflow-x-hidden`} id={`${location.pathname === '/' ? 'blogs' : 'blog-page'}`}>
+        <div className={`py-[74px] pb-[90px] lg:pt-[110px] lg:pb-[222px] px-[31px] lg:px-[116px] overflow-x-hidden ${location.pathname === '/blogs'? 'mt-10' : ''}`} id={`${location.pathname === '/' ? 'blogs' : 'blog-page'}`}>
             <h1 className='text-[48px] text-right lg:text-left lg:text-[68px] text-[#83FF8F] drop-shadow-[0_0_2px] font-bold font-["Poppins sans-serif"]'>Blogs</h1>
             <h6 className='font-["Poppins sans-serif"] text-right lg:text-left font-medium lg:font-black text-[12px] lg:text-[24px] opacity-60'>Read Blogs that will inspire and educate you to earn money !!</h6>
 
