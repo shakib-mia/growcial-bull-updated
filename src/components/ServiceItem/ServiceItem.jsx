@@ -18,7 +18,7 @@ const ServiceItem = ({ service, name, offers, setService, link, linkText }) => {
                 <h1 className='text-center font-medium text-[38px] uppercase absolute top-0 left-0 right-0 m-auto'>{name}</h1>
                 {service === name && <GreenGlow />}
                 <ul className={`mt-[38px] ml-[5px] ${service === name ? 'xl:ml-[32px] 2xl:ml-[50px]' : 'xl:ml-[32px] 2xl:ml-[70px]'} list-disc`}>
-                    {offers.slice(0, document.getElementById(name + 'check') && check ? offers.length - 1 : 6).map((item, key) => <li key={key} className='text-[16px] font-light py-[8px]'>{item}</li>)}
+                    {offers.slice(0, document.getElementById(name + 'check') && check ? offers.length : 6).map((item, key) => <li key={key} className='text-[16px] font-light py-[8px]'>{item}</li>)}
                     {/* </>} */}
                 </ul>
                 <input type="checkbox" id={name + 'check'} className='hidden' onChange={e => setCheck(e.target.checked)} />

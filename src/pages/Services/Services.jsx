@@ -82,7 +82,7 @@ const Services = () => {
         linkText: "Join"
     }, {
 
-        name: 'Alpha', offers: [
+        name: 'Premium', offers: [
             "Mastery In F&O Equity",
             "Live 1 To 1 Mentorship",
             "21 Sessions",
@@ -97,17 +97,15 @@ const Services = () => {
             "Elliot Wave Structures",
             "World Market Sense",
             "Stock Picking Technique",
-            "BTST/Swing/Positional Method",
-            "Expertise In Fundamental Analyst",
-            "WD Gann 7/99/144 Method",
             "Position Sizing",
             "How To Entry, Exit & Targets",
             "Trading Psychology Buildup",
+            "Live & Recorded Interactive Class",
         ],
         link: 'https://cosmofeed.com/view_ch/04b73455-a8df-4972-9f66-7de76eb9a3ee',
         linkText: <>&#8377; 9999</>
     }, {
-        name: "Membership", offers: [
+        name: "Standard", offers: [
             "Daily Chart Analysis",
             "F&O Live Trades",
             "Trend Time Cycle Updates",
@@ -135,7 +133,7 @@ const Services = () => {
             {/* small device */}
 
             <div className="lg:hidden z-0">
-                <ReactOwlCarousel items={1.4} center theme loop dots={true} margin={15} startPosition={1} autoplayHoverPause autoPlay={false}>
+                <ReactOwlCarousel items={1.4} center theme loop dots={true} margin={15} startPosition={1} autoplayHoverPause>
                     {plans.map(({ name, offers, link, linkText }, key) => <div className='item px-12 mx-auto z-0 mt-[80px]' id={name} key={key}>
                         <h1 className='text-center opacity-30 font-medium text-[22px] uppercase blur-[8px] absolute top-[45px] left-0 right-0 m-auto'>{name}</h1>
                         <h1 className='text-center font-medium text-[22px] uppercase absolute top-[45px] left-0 right-0 m-auto'>{name}</h1>
