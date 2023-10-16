@@ -1,9 +1,8 @@
 import gsap from 'gsap';
 import React, { useEffect, useRef, useState } from 'react';
-import greenArrow from './../../assets/green-arrow.png'
-import greenBar from './../../assets/green-bar.png'
 import ReactOwlCarousel from 'react-owl-carousel';
 import ServiceItem from '../../components/ServiceItem/ServiceItem';
+import ServicesSlide from '../../components/ServicesSlide/ServicesSlide';
 
 const Services = () => {
     const [service, setService] = useState('Alpha');
@@ -55,8 +54,6 @@ const Services = () => {
         })
 
     }, [])
-    const [check, setCheck] = useState(false)
-
 
     // const membershipPlan = ["DAILY CHART ANALYSIS ",
     //     "F&O LIVE TRADES",
@@ -127,33 +124,14 @@ const Services = () => {
             <div className='blue-glow w-1/2 md:w-1/3 lg:w-[600px] mx-auto'></div>
 
             <div className="hidden lg:grid grid-cols-3 px-[20px] lg:px-[106px] mt-[40px] lg:mt-[120px]">
-                {plans.map((props, key) => <ServiceItem {...props} setService={setService} service={service} />)}
+                {plans.map((props, key) => <ServiceItem {...props} setService={setService} service={service} key={key} />)}
             </div>
 
             {/* small device */}
 
             <div className="lg:hidden z-0">
                 <ReactOwlCarousel items={1.4} center theme loop dots={true} margin={15} startPosition={1} autoplayHoverPause>
-                    {plans.map(({ name, offers, link, linkText }, key) => <div className='item px-12 mx-auto z-0 mt-[80px]' id={name} key={key}>
-                        <h1 className='text-center opacity-30 font-medium text-[22px] uppercase blur-[8px] absolute top-[45px] left-0 right-0 m-auto'>{name}</h1>
-                        <h1 className='text-center font-medium text-[22px] uppercase absolute top-[45px] left-0 right-0 m-auto'>{name}</h1>
-                        {/* <div className="flex justify-center">
-                            <div className='green-glow w-1/2 md:w-1/3 lg:w-[600px] mt-0'></div>
-                        </div> */}
-
-                        <ul className='mt-[10px] mx-[5px] list-disc px-[10px] flex flex-col gap-[16px]'>
-                            {offers.slice(0, document.getElementById(name + 'check') && check ? offers.length - 1 : 6).map((item, key) => <li key={key} className='text-[12px] font-light'>{item}</li>)}
-                        </ul>
-                        {/* <img src={greenArrow} onClick={() => basicLength = basicList.length} className='w-[29px] mx-auto mt-[48px] cursor-pointer' alt="" /> */}
-                        <label>
-                            <input type="checkbox" className='hidden' onChange={e => setCheck(e.target.checked)} />
-                            <img src={greenArrow} className={`w-[29px] mx-auto mt-[15px] cursor-pointer ${check ? 'rotate-180' : 'rotate-0'}`} alt="" />
-                            {/* {document.getElementById(name + 2 + 'check')?.checked && <img src={greenArrow} className='w-[29px] mx-auto mt-[48px] cursor-pointer rotate-180' alt="" />} */}
-                        </label>
-                        <div className='mx-[10px]'>
-                            <a href={link} className='py-[12px] text-center text-[28px] hover:scale-110 transition inline-block w-full mt-[11px] font-medium' style={{ backgroundImage: `url(${greenBar})`, backgroundSize: '137% 112%', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>{linkText}</a>
-                        </div>
-                    </div>)}
+                    {plans.map((props, key) => <ServicesSlide {...props} key={key} />)}
                 </ReactOwlCarousel>
             </div>
         </div>
