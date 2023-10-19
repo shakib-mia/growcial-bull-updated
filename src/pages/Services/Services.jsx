@@ -6,7 +6,6 @@ import ServicesSlide from '../../components/ServicesSlide/ServicesSlide';
 
 const Services = () => {
     const [service, setService] = useState('Alpha');
-    // const headerRef = useRef(null);
     const basicRef = useRef(null);
     const premiumRef = useRef(null);
     const standardRef = useRef(null);
@@ -55,16 +54,6 @@ const Services = () => {
 
     }, [])
 
-    // const membershipPlan = ["DAILY CHART ANALYSIS ",
-    //     "F&O LIVE TRADES",
-    //     "TREND TIME CYCLE UPDATES",
-    //     "LEARNING BASE TUTORIALS",
-    //     "DYNAMIC & STATIC CALCULATOR",
-    //     "TRENDY INDICATERS",
-    //     "E-BOOK PDFs",
-    //     "HOW TO ENTRY,EXIT & TARGET",
-    //     "LIVE Q&A"]
-
     const plans = [{
         name: "Basic",
         offers: [
@@ -79,25 +68,25 @@ const Services = () => {
         linkText: "Join"
     }, {
 
-        name: 'Premium', offers: [
-            "Mastery In F&O Equity",
-            "Live 1 To 1 Mentorship",
-            "21 Sessions",
-            "Time And Date Cycle",
-            "Smart Money Concepts",
-            "Golden Rules Of Price Action",
-            "Advanced Option Strategy",
-            "WD Gann Secret Methods",
-            "Big Foot Player Entries",
-            "Dynamic & Static Calculator",
-            "Lunar/Astro Cycles",
-            "Elliot Wave Structures",
-            "World Market Sense",
-            "Stock Picking Technique",
-            "Position Sizing",
-            "How To Entry, Exit & Targets",
-            "Trading Psychology Buildup",
-            "Live & Recorded Interactive Class",
+        name: 'Alpha', offers: [
+            "LIVE 1 TO 1 MENTORSHIP",
+            "21 SESSIONS",
+            "TIME & DATE CYCLE",
+            "SMART MONEY CONCEPTS",
+            "GOLDEN RULES OF PRICE ACTION",
+            "ADVANCED OPTION STRATEGY",
+            "WD GANN SECRET METHODS",
+            "BIG FOOT PLAYER ENTRIES",
+            "DYNAMIC & STATIC CALCULATOR",
+            "LUNAR/ASTRO CYCLES",
+            "ELLIOT WAVE STRUCTURES",
+            "WORLD MARKET SENSE",
+            "STOCK PICKING TECHNIQUE ",
+            "WD GANN 7/99/144 METHOD",
+            "POSITION SIZING",
+            "HOW TO ENTRY,EXIT & TARGETS",
+            "PSYCHOLOGY BUILDUP",
+            "LIVE & REC INTRACTIVE CLASSES",
         ],
         link: 'https://cosmofeed.com/view_ch/04b73455-a8df-4972-9f66-7de76eb9a3ee',
         linkText: <>&#8377; 9999</>
@@ -130,7 +119,7 @@ const Services = () => {
             {/* small device */}
 
             <div className="lg:hidden z-0">
-                <ReactOwlCarousel items={1.4} center theme loop dots={true} margin={15} startPosition={1} autoplayHoverPause>
+                <ReactOwlCarousel items={1.4} center theme loop dots={true} margin={15} startPosition={1} autoplayHoverPause autoplay={false}>
                     {plans.map((props, key) => <ServicesSlide {...props} key={key} />)}
                 </ReactOwlCarousel>
             </div>

@@ -25,14 +25,12 @@ const Home = ({ enrollVisible, setEnrollVisible }) => {
             <AboutUs />
             <Services />
             <Testimonials />
-            {/* <AboutUs /> */}
             <div id="blogs-and-referral">
                 <Blogs />
                 <Referral />
             </div>
             <Contact />
             {enrollVisible && <EnrollContent setEnrollVisible={setEnrollVisible} />}
-            {/* <Footer /> */}
         </div>
     );
 };

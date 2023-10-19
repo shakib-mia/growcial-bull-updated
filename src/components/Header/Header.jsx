@@ -1,19 +1,14 @@
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import React, { useEffect, useRef, useState } from "react";
-// import Cause from '../Cause/Cause';
-// import Charts from "../Charts/Charts";
 import bars from "./../../assets/icons/bars.png";
 import books from "./../../assets/icons/book.png";
-// import calendar from "./../../assets/icons/calender.png"
 import clock from "./../../assets/icons/clock (1) 1.png";
 import globe from "./../../assets/icons/Group 1.png";
 import options from "./../../assets/icons/options.png";
-// import OwlCarousel from 'react-owl-carousel';
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import OwlCarousel from "react-owl-carousel";
-// import HeaderDetails from '../HeaderDetails/HeaderDetails';
 import bigFoot from "./../../assets/big foot player entrys-01.png";
 import eliteWave from "./../../assets/eliet wave-01.png";
 import physicology from "./../../assets/physicology-01.png";
@@ -232,7 +227,7 @@ const Header = () => {
   const reasonRef = useRef(null);
   const buttonRef = useRef(null);
 
-  // const [autoplay, setAutoplay] = useState(false);
+
 
   gsap.registerPlugin(ScrollTrigger);
 
